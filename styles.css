@@ -6,8 +6,19 @@
     padding-top: 6%;
 }
 .main-page-grid-1{
-    
-    
+    padding-top: 4%;
+    padding-bottom: 0%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.main-page-grid-1-text{
+    font-weight: bold;
+}
+.main-page-grid-1-email-button{
+    margin-top: 2%;
+}
+.div-navbar-main-footer-integrations{
+    opacity: 0.5;
 }
 .input-main-page{
     border-radius: 11px;
@@ -30,12 +41,26 @@
     padding-left: 12px;
     padding-right: 12px;
 }
+.button-main-page:hover{
+    background-color: white;
+    color: rgb(120, 177, 34);
+    border: solid 1px rgb(120, 177, 34);
+}
 .main-page-grid-1-title{
     color: black;
     font-size: 50px;
     font-weight: bold;
 }
-.footer-page-grid{
+.div-navbar-main-footer{
+    padding-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: auto;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .btnHeader{
     background-color: black;
@@ -47,6 +72,10 @@
     padding-bottom: 7px;
     padding-right: 12px;
     padding-left: 12px;
+}
+.btnHeader:hover{
+    background-color: white;
+    color: black;
 }
 .nav-link{
     color: black;
