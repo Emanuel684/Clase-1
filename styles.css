@@ -89,5 +89,19 @@
 .body-tree{
     text-align: center;
 }
-
-
+.button-tree{
+    color: red;
+}
+body{
+    background-color: rgb(0, 0, 75);
+}
+.div-script-tree{
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+.div-star{
+    position: relative;
+    top: 59px;
+    left: 29px;
+}
